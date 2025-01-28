@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background-color: #a3b8d8; /* Calm, professional blue background color */
 }
 
 /* Horizontal rule border styling */
@@ -18,6 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    font-size: 16px; /* Adjusted font size */
 }
 
 nav p {
@@ -97,16 +99,21 @@ footer {
     background-color: #282c34;
     color: white;
     text-align: center;
-    padding: 20px 10px;
+    padding: 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 14px; /* Adjusted font size for footer */
+}
+
+footer p {
+    margin-right: 10px; /* Space between name and LinkedIn icon */
 }
 
 footer a {
     color: white;
     margin-left: 10px;
-    font-size: 24px;
+    font-size: 20px; /* Smaller LinkedIn icon size */
 }
 
 footer a:hover {
@@ -233,4 +240,45 @@ h3 {
 
 .card ul li {
     margin-bottom: 10px;
+}
+
+/* New styles for the contact form */
+form.one-col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between form elements */
+    max-width: 400px; /* Smaller width for the form */
+    margin: 0 auto; /* Centers the form */
+}
+
+/* Input, textarea, and button */
+form.one-col input,
+form.one-col textarea {
+    width: 100%;  /* Ensures full width of form elements */
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Textarea specific */
+form.one-col textarea {
+    resize: vertical; /* Allows vertical resize */
+}
+
+/* Button Styling */
+form.one-col button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 14px;  /* Smaller font size */
+    border-radius: 5px;
+    padding: 8px 16px;  /* Smaller padding */
+    align-self: center;  /* Centers the button */
+}
+
+form.one-col button:hover {
+    background-color: #45a049;
 }
