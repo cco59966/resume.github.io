@@ -305,3 +305,36 @@ hr {
 .leadership-info dd {
     color: black; /* Apply black color to the text specifically for these items */
 }
+
+/* Form Styling to Ensure One Column Layout */
+form {
+    display: flex;
+    flex-direction: column; /* Stacks the form elements vertically */
+    align-items: center;  /* Centers the elements horizontally */
+    gap: 15px;  /* Adds space between form elements */
+}
+
+/* Input, textarea, and button styling */
+form input, form textarea, form button {
+    width: 100%;  /* Makes the form elements full-width */
+    max-width: 200px; /* Restricts the width of inputs for better readability */
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for the Submit Button */
+form button {
+    background-color: #66c466; /* Darker green color */
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #4caf50; /* Even darker green when hovered */
+}
