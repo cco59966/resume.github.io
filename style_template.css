@@ -1,27 +1,27 @@
-/* Remove default page margins */
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #a3b8d8; /* blue background color */
-    text-align: center;  /* Center all text in the body */
+    background-color: #a3b8d8; /*  this makes the blue background color */
+    text-align: center;  /*  this centers all text within the  body */
 }
 
-/* Horizontal rule border styling */
+/*  Here is the Horizontal rule border styling. */
 .styled-hr {
     border: 1px solid #2b3d4f;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-/* Navigation Styling */
+/*  This is the Navigation Styling. */
 nav {
     background-color: #282c34;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 8px;
-    font-size: 14px; /* Smaller font size */
-    text-align: center;  /* Center nav content */
+    font-size: 14px;
+    text-align: center;  
 }
 
 nav p {
@@ -38,7 +38,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Splash section styling */
+/* This is the Splash section styling. */
 .splash {
     text-align: center;
     padding: 12px;
@@ -49,36 +49,36 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     margin: 15px 0;
-    text-align: center; /* Center the photo container */
+    text-align: center; /* Centers the photo.  */
 }
 
 .headshot {
-    max-width: 100%;  /* Ensures image is responsive and doesn't overflow */
-    height: auto;     /* Maintains aspect ratio */
-    border-radius: 50%;  /* Optional: makes the image circular */
-    width: 200px;     /* Restore the original width (no longer 120px) */
-    object-fit: cover; /* Ensures image covers the space without distortion */
-    border: 5px solid white;  /* White border around the image */
+    max-width: 100%;  
+    height: auto;     
+    border-radius: 50%; 
+    width: 200px;     
+    object-fit: cover; 
+    border: 5px solid white;  /* White border around the image. */
 }
 
 .address, .tagline {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;  /* Smaller font size */
+    font-size: 14px;  /* shows the  font size. */
     line-height: 1.4;
     color: #333;
-    text-align: center; /* Center text */
+    text-align: center; /* This centers the text. */
 }
 
-/* Styling for the headline */
+/* Here is the styling for the headline. */
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.8em;
     margin: 8px 0;
-    text-align: center; /* Center h1 text */
+    text-align: center; /* Centers the  h1 text. */
 }
 
-/* Footer Styling */
+/*  This is the Footer Styling. */
 footer {
     background-color: #282c34;
     color: white;
@@ -87,36 +87,36 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px; /* Smaller font size for footer */
+    font-size: 12px; /
 }
 
 footer p {
-    margin-right: 8px; /* Space between name and LinkedIn icon */
+    margin-right: 8px; /*  puts  space between  my name and  the LinkedIn icon. */
 }
 
 footer a {
     color: white;
     margin-left: 8px;
-    font-size: 18px; /* Smaller LinkedIn icon size */
+    font-size: 18px;
 }
 
 footer a:hover {
     color: #61dafb;
 }
 
-/* Section Heading Styling */
+/* This is the Section  for Heading Styling */
 .section-heading {
     font-family: 'Roboto', sans-serif;
     font-size: 1.8em;
     color: #2b3d4f;
-    text-align: center; /* Center the section heading */
+    text-align: center; /* This centers the section heading */
 }
 
-/* Education paragraph styling */
+/* This is the Education paragraph styling */
 .education-info {
-    font-size: 0.9em;  /* Smaller font size */
+    font-size: 0.9em;  
     color: #444;
-    text-align: center; /* Center education info text */
+    text-align: center; 
 }
 
 .course-list {
@@ -128,24 +128,24 @@ footer a:hover {
 .styled-list {
     list-style-type: none;
     padding-left: 0;
-    font-size: 0.9em;  /* Smaller font size */
-    text-align: center; /* Center the list items */
-    display: inline-block; /* Ensures the list appears centered */
+    font-size: 0.9em;  
+    text-align: center; 
+    display: inline-block; 
     width: 100%;
 }
 
 .styled-list li {
     margin-bottom: 6px;
-    text-align: center; /* Make sure the list items are centered */
+    text-align: center; 
 }
 
-/* Grid Layout for Description Lists */
+/*  this is the Grid Layout for Description Lists. */
 .grid-list {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 6px;
-    font-size: 0.9em;  /* Smaller font size */
-    text-align: center; /* Center description list items */
+    font-size: 0.9em;  
+    text-align: center; 
 }
 
 .grid-list dt {
@@ -158,7 +158,7 @@ footer a:hover {
     color: #555;
 }
 
-/* Link styling */
+/* this is the Link styling. */
 a {
     color: #0077b6;
     text-decoration: none;
@@ -169,10 +169,10 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Font size adjustments for sections */
+/* This is the Font size for sections. */
 section {
     padding: 15px;
-    font-size: 1em;  /* Smaller font size for sections */
+    font-size: 1em;  /* Smaller font size for sections. */
 }
 
 h2, h3 {
@@ -180,84 +180,84 @@ h2, h3 {
 }
 
 h2 {
-    font-size: 1.6em;  /* Smaller font size for section headings */
+    font-size: 1.6em;
     color: #2b3d4f;
 }
 
 h3 {
-    font-size: 1.4em;  /* Smaller font size for h3 headings */
+    font-size: 1.4em;  
     color: #333;
 }
 
-/* Education Section: Font Size and Border Styling */
+/*This is the  Education Section: Font Size and Border Styling. */
 .education-info ul {
     list-style-type: none;
     padding-left: 0;
-    font-size: 0.9em;  /* Smaller font size for education lists */
+    font-size: 0.9em;  
 }
 
 .education-info h2,
 .honors-info h2,
 .leadership-info h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.4em;  /* Smaller font size for section headings */
+    font-size: 1.4em;  
     color: #2b3d4f;
-    text-align: center; /* Center section headings */
+    text-align: center; 
 }
 
-/* Styling for Education, Honors and Awards, Leadership and Experience Sections */
+/* This is the Styling for Education, Honors and Awards, Leadership and Experience sections. */
 .education-info,
 .honors-info,
 .leadership-info {
-    font-size: 0.9em; /* Smaller font size */
+    font-size: 0.9em; 
     font-weight: normal;
     color: black;
-    text-align: center; /* Center all text in these sections */
+    text-align: center; /* Center all text in these sectiosn. */
 }
 
 .education-info li, 
 .honors-info li,
 .leadership-info li {
-    font-size: 0.9em; /* Smaller font size for list items */
+    font-size: 0.9em; 
     color: black;
-    text-align: center; /* Center list items */
+    text-align: center; 
 }
 
-/* Section Styling */
+/* This is th eSection Styling. */
 section {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-/* Border Styling for Sections */
+/* JHere is the Border Styling for Sections. */
 hr {
     border: 1px solid #2b3d4f;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-/* Education, Honors, and Leadership Sections - Reduced Font Size and Border */
+/* This is the Education, Honors, and Leadership Sections - Reduced Font Size and Border. */
 .education-info,
 .honors-info,
 .leadership-info {
-    font-size: 0.8em; /* Much smaller font */
+    font-size: 0.8em;
 }
 
 .education-info li,
 .honors-info li,
 .leadership-info li {
-    font-size: 0.8em; /* Much smaller font for items */
+    font-size: 0.8em; 
     margin-bottom: 4px;
 }
 
-/* Smaller Section Borders */
+/* This is the  section borders */
 hr {
-    border: 0.5px solid #2b3d4f; /* Much thinner border */
+    border: 0.5px solid #2b3d4f;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-/* Projects Section (Grid Layout for Projects) */
+/*This is the  Projects Section (Grid Layout for the assignment) */
 .three-col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -301,32 +301,32 @@ hr {
     margin-bottom: 10px;
 }
 
-/* Make specific text black for Leadership and Experience Section */
+/* This Makes specific text black for Leadership and Experience Section. */
 .leadership-info dd {
-    color: black; /* Apply black color to the text specifically for these items */
+    color: black; /* Apply black color to the text specifically for these items. */
 }
 
-/* Form Styling to Ensure One Column Layout */
+/* This is the Form Styling to Ensure One Column Layout. */
 form {
     display: flex;
-    flex-direction: column; /* Stacks the form elements vertically */
-    align-items: center;  /* Centers the elements horizontally */
-    gap: 15px;  /* Adds space between form elements */
+    flex-direction: column; /* Stacks the form elements vertically. */
+    align-items: center;  /* Centers the elements horizontally. */
+    gap: 15px;  /* Adds space between form elements. */
 }
 
-/* Input, textarea, and button styling */
+/* here is the Input, textarea, and button styling. */
 form input, form textarea, form button {
-    width: 100%;  /* Makes the form elements full-width */
-    max-width: 200px; /* Restricts the width of inputs for better readability */
+    width: 100%;  /* Makes the form elements full-width. */
+    max-width: 200px; /* Restricts the width of inputs for better readability. */
     padding: 10px;
     font-size: 1em;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-/* Styling for the Submit Button */
+/* this here is the Styling for the Submit Button. */
 form button {
-    background-color: #66c466; /* Darker green color */
+    background-color: #66c466; 
     border: none;
     color: white;
     font-weight: bold;
@@ -334,7 +334,7 @@ form button {
     transition: background-color 0.3s ease;
 }
 
-/* Button hover effect */
+/* this is the Button hover effect. */
 form button:hover {
-    background-color: #4caf50; /* Even darker green when hovered */
+    background-color: #4caf50; 
 }
