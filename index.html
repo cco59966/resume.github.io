@@ -6,8 +6,16 @@
     <title>Chibuike Onuoha</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style_template.css" type="text/css">
-    
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+
+    <!-- CUSTOM FONT SIZE CONTROL FOR ABOUT ME SECTION -->
+    <style>
+        .about-info {
+            font-size: 13px; /* ← Change this to whatever size you want */
+            line-height: 1.6;
+        }
+    </style>
+
 </head>
 <body>
     <nav>
@@ -15,7 +23,6 @@
         <p><a href="contact.html">Contact Chibuike Onuoha</a></p>
     </nav>
 
-    
     <section class="splash">
         <h1>Chibuike Onuoha</h1>
         <div class="headshot-container">
@@ -27,7 +34,20 @@
 
     <hr class="styled-hr">
 
-    <!-- This is the Education Section. -->
+    <!-- ABOUT ME SECTION -->
+    <section class="about-info">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science major at the University of Georgia, graduating in December 2025. I am deeply passionate about building software that is both meaningful and impactful. My interests lie in full-stack development, systems design, and creating scalable technologies that solve real-world problems.
+        </p>
+        <p>
+            Through my internship at Triunity Software and my volunteer work as a Web Developer, I have gained hands-on experience transforming ideas into working products. These opportunities strengthened my skills in collaboration, problem-solving, and writing clean, efficient code. After graduation, my goal is to pursue a career as a software engineer where I can continue developing innovative applications and contributing to high-performing engineering teams.
+        </p>
+    </section>
+
+    <hr class="styled-hr">
+
+    <!-- Education Section -->
     <section class="education-info">
         <h2>Education</h2>
         <p>Bachelor of Science in Computer Science</p>
@@ -38,20 +58,18 @@
 
     <hr class="styled-hr">
 
-    <!--  This is the Honors and Awards Section. -->
+    <!-- Honors and Awards Section -->
     <section class="honors-info">
         <h2>Honors and Awards</h2>
         <dl>
             <dt>Dean’s List: Fall 2023, Spring 2024</dt>
-           
             <dt>Georgia Merit Scholarship 2024</dt>
-
         </dl>
     </section>
 
     <hr class="styled-hr">
 
-    <!-- This is the  Skills Section. -->
+    <!-- Skills Section -->
     <section class="skills-info">
         <h2>Skills</h2>
         <ul class="styled-list">
@@ -64,23 +82,33 @@
 
     <hr class="styled-hr">
 
-    <!-- This is the Leadership and Experience Section. -->
+    <!-- Leadership and Experience Section -->
     <section class="leadership-info">
         <h2>Leadership and Experience</h2>
         <dl class="grid-list">
             <dt><a href="https://triunitysoft.com" target="_blank">Software Engineering Intern</a></dt>
-            <dd>Triunity Software Inc. — June 2024 to August 2024</dd>
+            <dd>
+                Triunity Software Inc. — June 2024 to August 2024  
+                <br>
+                <strong>Reflection:</strong> This internship allowed me to apply classroom concepts to real-world development while strengthening my understanding of teamwork, debugging, and building production-level applications.
+            </dd>
+
             <dt>Volunteer Web Developer</dt>
-            <dd>Computer Science Club — September 2023 to Present</dd>
+            <dd>
+                Computer Science Club — September 2023 to Present  
+                <br>
+                <strong>Reflection:</strong> Volunteering as a web developer helped me refine my communication skills and taught me how to build solutions that support a broader community.
+            </dd>
         </dl>
     </section>
 
     <hr class="styled-hr">
 
-    <!-- This is the Projects Section. -->
+    <!-- Projects Section -->
     <section>
         <h2 class="section-heading">Projects</h2>
         <div class="three-col">
+
             <div class="card">
                 <img src="images/PersonalFinanceTrackerApplication.jpg" alt="Project 1" class="project-img">
                 <h3>Personal Finance Tracker Application</h3>
@@ -88,6 +116,7 @@
                     <li>Built a full-stack web application that allows users to track their income, expenses, and set savings goals. The app includes secure user authentication and data encryption.</li>
                     <li>Technologies/Tools Used: React, Node.js, MongoDB, JWT Authentication</li>
                     <li>Key Skills Demonstrated: Full-stack development, security best practices, database management</li>
+                    <li><strong>Reflection:</strong> This project strengthened my ability to design scalable back-end systems and reinforced the importance of user-centered design.</li>
                 </ul>
             </div>
 
@@ -98,6 +127,7 @@
                     <li>Developed a responsive personal portfolio to showcase projects, resume, and technical skills. Integrated contact form and Google Analytics for tracking.</li>
                     <li>Technologies/Tools Used: HTML, CSS, JavaScript, GitHub Pages</li>
                     <li>Key Skills Demonstrated: Front-end development, web design, responsive layouts</li>
+                    <li><strong>Reflection:</strong> Building this site improved my understanding of UI/UX principles and how to communicate technical skills visually.</li>
                 </ul>
             </div>
 
@@ -108,6 +138,7 @@
                     <li>Created a web application to help users manage their tasks and deadlines. The app allows users to create, update, and delete tasks, with a priority system and reminder notifications.</li>
                     <li>Technologies/Tools Used: Vue.js, Firebase, CSS Grid, Push Notifications</li>
                     <li>Key Skills Demonstrated: Single-page applications (SPA), real-time databases, notifications, front-end development</li>
+                    <li><strong>Reflection:</strong> This project strengthened my skills in building interactive user interfaces and managing real-time data flows.</li>
                 </ul>
             </div>
         </div>
